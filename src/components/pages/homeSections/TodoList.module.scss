@@ -1,0 +1,15 @@
+.TodoList {
+	.content {
+		.items {
+			.item {
+				img {
+					object-fit: cover;
+					object-position: center;
+					width: 100%;
+					max-width: 500px;
+					height: auto;
+				}
+			}
+		}
+	}
+}
