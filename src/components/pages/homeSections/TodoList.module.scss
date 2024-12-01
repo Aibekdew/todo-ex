@@ -1,15 +1,31 @@
 .TodoList {
-	.content {
-		.items {
-			.item {
-				img {
-					object-fit: cover;
-					object-position: center;
-					width: 100%;
-					max-width: 500px;
-					height: auto;
-				}
-			}
-		}
-	}
+  .content {
+    .product {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      .block {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+        border: 1px solid orange;
+        padding: 30px;
+        border-radius: 10px;
+        .btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          button {
+            padding: 5px 25px;
+            cursor: pointer;
+            background: orange;
+            border: none;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,18 @@
+.TodoAdd {
+  .content {
+    .input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      button {
+        padding: 6px 22px;
+        border-radius: 5px;
+        border: none;
+        background: orange;
+        cursor: pointer;
+      }
+    }
+  }
+}
